@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.paginate li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
